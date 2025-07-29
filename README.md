@@ -10,3 +10,5 @@ create virtual env => uv python list
                 env\Scripts\activate
                 uv pip list
                 
+
+uvicorn main:app --host 0.0.0.0 --port 8080 --reload
